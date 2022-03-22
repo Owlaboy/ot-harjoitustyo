@@ -9,3 +9,6 @@ pe and scrambled it to make a type specimen book. It has survived not only five 
 electronic typesetting, remaining essentially unchanged. It was popularised in t
 he 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with d
 esktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+Here are the links to further files: [gitlog](https://github.com/Owlaboy/ot-harjoitustyo/blob/3c3f9c9672a4bec7842d7d30e821265d20cdf09f/laskarit/viikko1/gitlog.txt)
