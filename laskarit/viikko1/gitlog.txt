@@ -1,0 +1,103 @@
+commit f2331f323dbe2c578db18c55d3cc294c8fb9820c
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 17:10:25 2022 +0200
+
+    yet an other change
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit ea8ba75f830bd50313c23e4680ee7776bd84d2ce
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 17:05:27 2022 +0200
+
+    uusia tiedostoja
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a9daa03ec3512452e47cb236c27413e21312d22b
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 17:01:01 2022 +0200
+
+    pistetään git solmuun
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 378add78c76df54b08066d616312d4f5cc0e5412
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 16:58:08 2022 +0200
+
+    poistetaan toinen tiedosto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit ead30d0dfeb5209df0dd1056a95e89c68e71f652
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 16:51:56 2022 +0200
+
+    vieläkin suurempia muutoksia
+
+ tiedosto.txt | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit e6b47fa90230e901ea62e0b3fa9e03b0096de5ca
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 16:50:40 2022 +0200
+
+    jees suuria muutoksia
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 141a1ea94dff56b3484107ac6d7c2bda3afdbc4a
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 16:38:59 2022 +0200
+
+    new files and directory
+
+ stuff/velihetki.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 1c1c2011d8dbb1c0084e51e589256339592a0b35
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 16:36:29 2022 +0200
+
+    uudet muutokset
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 55004ef5a5fd5791d85fecd2de0f2208fb13d1d1
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 16:35:02 2022 +0200
+
+    pls work
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 452e4552de5a4f87f97f6227305c8885e80e5826
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 16:34:23 2022 +0200
+
+    muustos ja lisäus
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 809f3cc270cfd3a721f4110683991e946c0f7068
+Author: Andrei Preoteasa <andrei.preoteasa@helsinki.fi>
+Date:   Tue Mar 22 16:27:30 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
