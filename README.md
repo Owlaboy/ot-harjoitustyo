@@ -1,5 +1,5 @@
-# Tämä on paksua kamaa
-## toisaalta tämä ei ole yhtä paksua :(((
+# Ohjelmistotekniikka, harjoitustyö
+#### Tehtävät
 
 **voidaanko tehdä tehtäviä yhdessä**
 Lorem Ipsum is simply dummy text of the printing and 
