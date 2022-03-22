@@ -11,4 +11,6 @@ he 1960s with the release of Letraset sheets containing Lorem Ipsum passages, an
 esktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 
-Here are the links to further files: [gitlog](https://github.com/Owlaboy/ot-harjoitustyo/blob/3c3f9c9672a4bec7842d7d30e821265d20cdf09f/laskarit/viikko1/gitlog.txt)
+Viikko 1
+[gitlog.txt](https://github.com/Owlaboy/ot-harjoitustyo/blob/3c3f9c9672a4bec7842d7d30e821265d20cdf09f/laskarit/viikko1/gitlog.txt) 
+[komentorivi.txt](https://github.com/Owlaboy/ot-harjoitustyo/blob/b5fa6be666117f777d878e393ab8ca260e12d5a0/laskarit/viikko1/komentorivi.txt)
