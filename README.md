@@ -2,7 +2,7 @@
 #### Tehtävät
 
 **voidaanko tehdä tehtäviä yhdessä**
-Lorem Ipsum is simply dummy text of the printing and 
+ of the printing and 
 typesetting industry. Lorem Ipsum has been the industry's standard
 __dummy text ever since the 1500s__, when an unknown printer **took a galley of ty
 pe and scrambled it to make a type specimen book. It has survived not only five __centuries, but also__ the leap into** 
