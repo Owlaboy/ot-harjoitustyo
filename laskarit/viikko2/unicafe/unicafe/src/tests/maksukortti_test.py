@@ -17,6 +17,9 @@ class TestMaksukortti(unittest.TestCase):
         self.maksukortti.lataa_rahaa(100)
         self.assertEqual(str(self.maksukortti), "saldo: 1.1")
 
+    def test_rahan_otto_liikaa(self):
+        self.assertEqual(self.maksukortti.ota_rahaa(20), False)
+
     def test_oikea_vähenemisen_määrä_raahaa_riittää(self):
         self.maksukortti.lataa_rahaa(240)
         self.kassapaate.syo_edullisesti_kortilla(self.maksukortti)
