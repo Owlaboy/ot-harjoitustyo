@@ -11,7 +11,10 @@ Sovellukseen on tarkoitus luoda vain yksi käyttäjä ensimmäisella aukaisukerr
 _valmentaja_ käyttäjä, joka voi tarkastella muiden käyttäjien kaloreita.
 
 ## Käyttöliittymäluonnos
- ![](./kuvat/Luonnos1.jpg?raw=true]
+Sovelluksessa on viisi ikkunaa. Yksi ensimmäiselle avaukselle missä täytetään käyttäjän tiedot, mistä pääsee yleisnäkymään. Yleisnäkymässä käyttäjälle näytetään kaloritavoite ja siinä voi lisätä treenin, ruuan tai nähdä aikaisemmat päivät. 
+ ![](./kuvat/Luonnos1.jpg)
+ Yleisnäkymästä voidaan mennä treeninäkymaan, ruokanäkymään tai aikaisempien päivien näkymään. Treeninäkymässä pitää kirjoittaa millainen treeni on tehty ja kuinka paljon kaloreita on käytetty minkä jälkeen treeni voidaan lisätä tai päätös voidaan perua. Molemmat vievät käyttäjän takaisin yleisnäkymään. Ruokanäkymä toimii samoin tavoin kuink treeninäkymä mutta siihen kirjoitetaan mitä ollaan syöty ja kuinka paljon kaloreita ruuassa oli. Näkymästä palataan yleisnäkymään samalla tavalla kuin treeninäkymästä. Aikaisempien päivien näkymä näyttää taulukon aikaisempien päivien kaloritavoitteista.
+ ![](./kuvat/Luonnos2.jpg)
 
 ## Perusversion tarjoama toiminnallisuus
 ### Ensimmäinen sovelluksen aukaisu
