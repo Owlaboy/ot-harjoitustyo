@@ -11,7 +11,7 @@ Sovellukseen on tarkoitus luoda vain yksi käyttäjä ensimmäisella aukaisukerr
 _valmentaja_ käyttäjä, joka voi tarkastella muiden käyttäjien kaloreita.
 
 ## Käyttöliittymäluonnos
- todo
+ ![](./kuvat/Luonnos1.jpg?raw=true]
 
 ## Perusversion tarjoama toiminnallisuus
 ### Ensimmäinen sovelluksen aukaisu
