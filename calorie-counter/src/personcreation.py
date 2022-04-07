@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import sqlite3
 
 class userdata():
@@ -15,3 +16,7 @@ class userdata():
 
 if __name__ == "__main__":
     u = userdata()
+=======
+from sqlite3 import db
+
+>>>>>>> bb56f654b57392dff0a2a35cfcfa814602639aa3
