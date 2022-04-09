@@ -18,15 +18,15 @@ Sovelluksessa on viisi ikkunaa. Yksi ensimmäiselle avaukselle missä täytetä�
 
 ## Perusversion tarjoama toiminnallisuus
 ### Ensimmäinen sovelluksen aukaisu
-- Sovellus kysyy käyttäjän tiedot joilla lasketaan kalorien poltto
-  - Tietoihin kuuluu esim. käyttäjän paino, pituus ja sukupuoli
+- Sovellus kysyy käyttäjän tiedot joilla lasketaan kalorien poltto "Tehty"
+  - Tietoihin kuuluu esim. käyttäjän paino, pituus ja sukupuoli 
  
 ### Tietojen tallentamisen jälkeen
 - Sovellus näyttää päivän kaloritavoitteen ja päivämäärän
   - Tavoitteen lisäksi näkyy myös kuinka monta kaloria on syöty päivän aikana
-- Käyttäjä voi lisätä syödyn ruuan
+- Käyttäjä voi lisätä syödyn ruuan  "Tehty"
   - Uudessa ikkunassa voidaan kirjoittaa mitä on syöty ja käyttäjä täyttää kaloriarvion
-- Käyttäjä voi lisätä treenin
+- Käyttäjä voi lisätä treenin  "Tehty"
   - Uudessa ikkunassa voidaan kirjoittaa miten on urheiltu ja käyttäjä täyttää kaloriarvion
 - Käyttäjä voi myös nähdä aikaisempien päivien kalori määrät, ruuat ja treenit
   - Tiedot näkyvät taulukossa

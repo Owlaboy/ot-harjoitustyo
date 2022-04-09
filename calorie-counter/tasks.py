@@ -3,6 +3,7 @@ from invoke import task
 @task
 def start(ctx):
     ctx.run("python3 src/calculator.py", pty=True)
+    ctx.run("python3 src/personcreation.py", pty=True)
 
 @task
 def test(ctx):
