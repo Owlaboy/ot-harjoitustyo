@@ -6,5 +6,6 @@
 |04.04.2022|3|Projektin aloittaminen, testien alustava luonti, invoke-tehtävät luotu|
 |07.04.2022|1|Luotu tietokannan alustaja, mihin tallennetaan läyttäjän perus tiedot|
 |09.04.2022|0.5|Päivitetty dokumentaatiota|
+|12.04.2022|3|Ohjelman runko luotu, päivitetty dokumentaatiota|
 
-|Yht.|6.5||
+|Yht.|9.5||

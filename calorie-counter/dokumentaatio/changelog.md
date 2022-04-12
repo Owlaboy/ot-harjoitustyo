@@ -10,3 +10,7 @@
 - Päivitetty tuntikirjanpito sisältämään myös yhteisen ajan käytön
 - Päivitetty vaatimusmäärittely, eri toiminnallisuuskohtiin on lisätty "Tehty" merkintä
 - Poetry:n start komentoon lisätty "personcreation.py":n suoritus
+- Lisätty uusia invoke komentoja
+- Luotu uusi tiedosto "calorietracker.py", mikä suorittaa ohjelman perus toiminnallisuuden.
+- Päivitetty tiedostoa "personcreation.py"
+    - Lisätty metodi joka palauttaa käyttäjän tiedot calorien laskentaa varten
