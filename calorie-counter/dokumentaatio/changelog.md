@@ -22,3 +22,4 @@
     - metodit "give_calories" ja "give_todays_calories"
         - "give_calories" metodi antaa parametrina annetun päivän kalorimäärän
         - "give_todays_calories" metodi antaa kutsupäivänä syödyt kalorit kutsumalla metodia "give_calories"
+- Korjattu README tiedosto
