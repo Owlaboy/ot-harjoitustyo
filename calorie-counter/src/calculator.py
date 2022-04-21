@@ -9,7 +9,3 @@ class Calculator():
         if self.sex == 0:
             return 13.397*self.weigth + 4.799*self.height - 5.677*self.age + 88.362
         return 9.247*self.weight + 3.098*self.height - 4.330*self.age + 447.593
-
-if __name__ == "__main__":
-    c = Calculator(20,0,176,60)
-    print(c.resting())

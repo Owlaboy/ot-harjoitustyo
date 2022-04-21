@@ -1,4 +1,5 @@
 import sqlite3
+from datetime import date
 
 
 class Userdata():
@@ -33,3 +34,13 @@ class Userdata():
     def give_user_data(self):
         data = self.db.execute("select * from User").fetchone()
         return data[0]
+
+    def give_calories(self,day):
+        data = self.db.execute(f"select sum(calories) from Meals where date = '{day}'").fetchall()
+        if data[0][0] == None:
+            return 0
+        return data[0][0]
+    
+    def give_todays_calories(self):
+        today = date.today().strftime("%Y-%m-%d")
+        return self.give_calories(today)

@@ -14,3 +14,11 @@
 - Luotu uusi tiedosto "calorietracker.py", mikä suorittaa ohjelman perus toiminnallisuuden.
 - Päivitetty tiedostoa "personcreation.py"
     - Lisätty metodi joka palauttaa käyttäjän tiedot calorien laskentaa varten
+
+## Viikko 5
+
+- Luotu uusia testejä "personcreation" luokkaa varten
+- Luotu uusia metodeja syötyjen kalorien määrän laskemista varten "personcreation" tiedostossa
+    - metodit "give_calories" ja "give_todays_calories"
+        - "give_calories" metodi antaa parametrina annetun päivän kalorimäärän
+        - "give_todays_calories" metodi antaa kutsupäivänä syödyt kalorit kutsumalla metodia "give_calories"

@@ -11,7 +11,7 @@ Sovelluksen toiminta on testattu Python-versiolla `3.8`.
 ## Dokumentaatio
 - [Vaatimusmäärittely](https://github.com/Owlaboy/ot-harjoitustyo/blob/cb63175993b1c7a3a6ffea62b9294800f659ca5b/calorie-counter/dokumentaatio/vaatimusmaarittely.md)
 - [Työaikakirjanpito](https://github.com/Owlaboy/ot-harjoitustyo/blob/cb63175993b1c7a3a6ffea62b9294800f659ca5b/calorie-counter/dokumentaatio/tuntikirjanpito.md)
-- [Changelog](https://github.com/Owlaboy/ot-harjoitustyo/blob/bb8e1b9ff35ef3fec95e620e7e65f5045a82d34b/calorie-counter/dokumentaatio/changelog.md)
+- [Changelog](https://github.com/Owlaboy/ot-harjoitustyo/blob/cb63175993b1c7a3a6ffea62b9294800f659ca5b/calorie-counter/dokumentaatio/changelog.md)
 
 ## Asennus
 

@@ -1,5 +1,6 @@
 from calculator import Calculator
 from personcreation import Userdata
+from datetime import date
 
 
 
@@ -33,14 +34,16 @@ class Calorie_Tracker():
         return basicrate
 
     def add_meal(self):
+        today = date.today().strftime("%Y-%m-%d")
         what = str(input("What you ate: "))
         calories = float(input("How many calories it was: "))
-        self.data.new_meal(0,what,calories)
+        self.data.new_meal(today,what,calories)
 
     def add_workout(self):
+        today = date.today().strftime("%Y-%m-%d")
         what = str(input("What you did: "))
         calories = float(input("How many calories it was: "))
-        self.data.new_exercise(0,what,calories)        
+        self.data.new_exercise(today,what,calories)        
 
     def base(self):
         print("Your current basal caloric rate is:")
