@@ -36,7 +36,8 @@ class Userdata():
         return data[0]
 
     def give_calories(self,day):
-        data = self.db.execute(f"select sum(calories) from Meals where date = '{day}'").fetchall()
+        data = self.db.execute(
+            f"select sum(calories) from Meals where date = '{day}'").fetchall()
         if data[0][0] == None:
             return 0
         return data[0][0]
@@ -44,3 +45,14 @@ class Userdata():
     def give_todays_calories(self):
         today = date.today().strftime("%Y-%m-%d")
         return self.give_calories(today)
+    
+    def calories_bruned(self, day):
+        data = self.db.execute(
+            f"select sum(calories) from Exercises where date = '{day}'").fetchall()
+        if data [0][0] == None:
+            return 0
+        return data[0][0]
+    
+    def calories_burned_today(self):
+        today = date.today().strftime("%Y-%m-%d")
+        return self.calories_bruned(today)

@@ -18,8 +18,11 @@
 ## Viikko 5
 
 - Luotu uusia testejä "personcreation" luokkaa varten
-- Luotu uusia metodeja syötyjen kalorien määrän laskemista varten "personcreation" tiedostossa
+- Luotu uusia metodeja syötyjen ja poltettujen kalorien määrän laskemista varten "personcreation" tiedostossa
     - metodit "give_calories" ja "give_todays_calories"
         - "give_calories" metodi antaa parametrina annetun päivän kalorimäärän
         - "give_todays_calories" metodi antaa kutsupäivänä syödyt kalorit kutsumalla metodia "give_calories"
+    - metodit "calories_burned" ja "calories_burned_today"
+        - "calories_burned" metodi antaa parametrina annetun päivän poltetut kalorit
+        - "calories_burned_today" metodi antaa kutsupäivänä poltetut kalorit 
 - Korjattu README tiedosto

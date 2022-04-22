@@ -8,4 +8,5 @@
 |09.04.2022|0.5|Päivitetty dokumentaatiota|
 |12.04.2022|3|Ohjelman runko luotu, päivitetty dokumentaatiota|
 |21.04.2022|2|Ohjelman osittaista testausta ja uusia metodeja|
-|Yht.|11.5||
+|22.04.2022|1|Uusia metodeja|
+|Yht.|12.5||
