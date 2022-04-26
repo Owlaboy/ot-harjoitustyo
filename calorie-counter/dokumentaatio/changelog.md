@@ -26,3 +26,5 @@
         - "calories_burned" metodi antaa parametrina annetun päivän poltetut kalorit
         - "calories_burned_today" metodi antaa kutsupäivänä poltetut kalorit 
 - Korjattu README tiedosto
+- Korjattu eri pylint virheitä
+- Muutettu tiedoston avaamis tapaa
