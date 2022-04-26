@@ -23,7 +23,7 @@ Sovelluksessa on viisi ikkunaa. Yksi ensimmäiselle avaukselle missä täytetä�
  
 ### Tietojen tallentamisen jälkeen
 - Sovellus näyttää päivän kaloritavoitteen ja päivämäärän
-  - Tavoitteen lisäksi näkyy myös kuinka monta kaloria on syöty päivän aikana
+  - Tavoitteen lisäksi näkyy myös kuinka monta kaloria on syöty päivän aikana "tehty"
 - Käyttäjä voi lisätä syödyn ruuan  "Tehty"
   - Uudessa ikkunassa voidaan kirjoittaa mitä on syöty ja käyttäjä täyttää kaloriarvion
 - Käyttäjä voi lisätä treenin  "Tehty"

@@ -28,3 +28,6 @@
 - Korjattu README tiedosto
 - Korjattu eri pylint virheitä
 - Muutettu tiedoston avaamis tapaa
+- Luotu uusia testejä kattavuutta varten
+- Ohjelma nyt laskee poltetut kalorit ja syödytkalorit
+    - Näyttää luvut vierekkäin käyttäjälle
