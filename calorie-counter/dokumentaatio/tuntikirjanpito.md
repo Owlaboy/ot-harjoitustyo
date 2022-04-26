@@ -9,4 +9,5 @@
 |12.04.2022|3|Ohjelman runko luotu, päivitetty dokumentaatiota|
 |21.04.2022|2|Ohjelman osittaista testausta ja uusia metodeja|
 |22.04.2022|1|Uusia metodeja|
-|Yht.|12.5||
+|26.04.2022|3|Pylint korjauksia, uusia testejä ja ohjelman perustoiminnallisuuden täydentäminen|
+|Yht.|15.5||
