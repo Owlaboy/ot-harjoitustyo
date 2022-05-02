@@ -74,15 +74,18 @@ Kun ohjelma käynnistetään uudelleen, se jatkaa `user.db` käyttöä.
 
 ### Käyttäjän tietojen tallennus
 Kun ohjelmaa kutsutaan ensinmäistä kertaa, ohjelma pyytää käyttäjän tietoja. Ohjelman luokat toimivat seuraavasti:
+
 ![](https://github.com/Owlaboy/ot-harjoitustyo/blob/666e596a7bb4451f5a909ca2719cce72875b490f/calorie_counter/dokumentaatio/kuvat/Screenshot_20220502_171457.png)
 
 ### Uusi ruokailu ja treeni
 Ruokailun ja treenin lisääminen toimii samalla tavalla.
 Luokat kutsuvat toisiaan seuraavasti:
+
 ![](https://github.com/Owlaboy/ot-harjoitustyo/blob/666e596a7bb4451f5a909ca2719cce72875b490f/calorie_counter/dokumentaatio/kuvat/Screenshot_20220502_171813.png)
 
 ### Kalorikulutuksen laskenta
 Kalorikulutksen laskenta suoritetaan seuraavasti:
+
 ![](https://github.com/Owlaboy/ot-harjoitustyo/blob/666e596a7bb4451f5a909ca2719cce72875b490f/calorie_counter/dokumentaatio/kuvat/Screenshot_20220502_172638.png)
 
 
