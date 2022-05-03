@@ -1,5 +1,5 @@
 from tkinter import *
-from calorie_counter.src.personcreation import Userdata
+# from calorie_counter.src.personcreation import Userdata
 
 class Loginview():
     def __init__(self,root):
