@@ -4,7 +4,7 @@ from personcreation import Userdata
 from datetime import date
 
 
-class Test_Personcreation(unittest.TestCase):
+class TestPersoncreation(unittest.TestCase):
     def setUp(self):
         os.remove("user.db")
         self.userdata = Userdata()
