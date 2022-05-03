@@ -31,3 +31,10 @@
 - Luotu uusia testejä kattavuutta varten
 - Ohjelma nyt laskee poltetut kalorit ja syödytkalorit
     - Näyttää luvut vierekkäin käyttäjälle
+
+## Vikko 6
+- Dokumentaatio muutoksia.
+    - Arkkitehtuurikuvauksen ja käyttöohjeen luonti
+    - READMEn tarkentaminen palautuksen mukaan
+- Testiraportti käsittelee ainoastaan ohjelman tärkeitä osia eikä käyttöliittymää
+- Docstring dokumentaatio kaikkii tiedostoihin paitsi testeihin.

@@ -11,9 +11,9 @@ Sovelluksen toiminta on testattu Python-versiolla `3.8`.
 
 # Ohjelmistotekniikka, harjoitustyö
 ## Dokumentaatio
-- [Vaatimusmäärittely](calorie-counter/dokumentaatio/vaatimusmaarittely.md)
-- [Työaikakirjanpito](calorie-counter/dokumentaatio/tuntikirjanpito.md)
-- [Changelog](calorie-counter/dokumentaatio/changelog.md)
+- [Vaatimusmäärittely](calorie_counter/dokumentaatio/vaatimusmaarittely.md)
+- [Työaikakirjanpito](calorie_counter/dokumentaatio/tuntikirjanpito.md)
+- [Changelog](calorie_counter/dokumentaatio/changelog.md)
 
 ## Asennus
 
@@ -28,8 +28,11 @@ poetry install
 ```bash
 poetry run invoke start
 ```
+Sovelluksen käynnistys suoritetaan `calorie_counter` hakemistossa.
 
 ## Komentorivitoiminnot
+
+Kaikki komento rivi toiminnot ovat suoritettava `calorie_counter` hakemistossa.
 
 ### Ohjelman suorittaminen
 
@@ -41,7 +44,7 @@ poetry run invoke start
 
 ### Testaaminen
 
-## !!Ohjelman testaaminen tällä hetkellä poistaa käyttäjän tallennetut tiedot!!
+#### !!Ohjelman testaaminen tällä hetkellä poistaa käyttäjän tallennetut tiedot!!
 
 Ohjelman testaaminen suoritetaan komennolla:
 
@@ -54,7 +57,7 @@ poetry run invoke test
 Testien kattavuusraportin voi luoda komennolla:
 
 ```bash
-poetry run invoke coverage_report
+poetry run invoke coverage-report
 ```
 
 Raportti generoituu _htmlcov_-hakemistoon.
