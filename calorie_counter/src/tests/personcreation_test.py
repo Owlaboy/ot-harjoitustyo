@@ -6,7 +6,10 @@ from datetime import date
 
 class TestPersoncreation(unittest.TestCase):
     def setUp(self):
-        os.remove("user.db")
+        try:
+            os.remove("user.db")
+        except:
+            pass
         self.userdata = Userdata()
 
     def test_calorie_return_1(self):
@@ -35,7 +38,7 @@ class TestPersoncreation(unittest.TestCase):
 
     def test_todays_burned_calories(self):
         today = date.today().strftime("%Y-%m-%d")
-        
+
         self.userdata.new_exercise(today, "full body", 500)
         burned = self.userdata.calories_burned_today()
         self.assertEqual(burned, 500)

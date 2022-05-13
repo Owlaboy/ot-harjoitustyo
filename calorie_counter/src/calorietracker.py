@@ -2,6 +2,7 @@ from datetime import date
 from calculator import Calculator
 from personcreation import Userdata
 
+
 class Calorietracker():
     def __init__(self):
         self.data = Userdata()
@@ -17,14 +18,14 @@ class Calorietracker():
         age = int(input("Then your age: "))
         while True:
             sex = int(
-                input("Then your sex, (input 0 if you are a man, 1 if you are a woman):"))
-            if sex in (1,0):
+                input("Then your sex, (input 0 if you are a man, 1 if you are a woman): "))
+            if sex in (1, 0):
                 break
             print("invalid input")
             print("try again")
         height = float(input("Now, give us your height in centimeters: "))
         weight = float(
-            input("And finally, give us your current weight in kilograms"))
+            input("And finally, give us your current weight in kilograms: "))
         self.data.new_person(name, age, sex, height, weight)
         print("Thank you for your patience.")
         print("Now we can begin tracking your calories.")
@@ -87,7 +88,7 @@ class Calorietracker():
     def Run(self):
         """This function is used to call the program.
         It checks if the program needs to complete an inital call to create a new database file.
-        After checking for a database the function runs infinitely until the base program cycle ends.
+        After checking for a database the function runs infinitely until the program cycle ends.
         """
         try:
             open("user.db")
@@ -98,8 +99,8 @@ class Calorietracker():
             if not self.base():
                 break
 
+
 if __name__ == "__main__":
     tracker = Calorietracker()
     tracker.Run()
-    print(tracker.calculate())
     

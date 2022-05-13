@@ -4,21 +4,20 @@ from datetime import date
 
 class Userdata():
     '''
-    
-    This class creates a database to save user data. 
-    The initializatoin of the class checks if a database file exists, 
+    This class creates a database to save user data.
+    The initializatoin of the class checks if a database file exists,
     if it doesn't exist a new file is created.
     When a new file is created the class creates three tablse.
         A table for the user's personal data.
         A table to save the user's meals.
         A table to save the user's exercises.
     The class provides methods for inputting data into the data base.'''
-
     def __init__(self):
         try:
-            open("user.db")
+            with open("user.db") as test:
+                pass
         except IOError:
-            with open("user.db", "w") as iniation:
+            with open("user.db", "w") as test:
                 pass
             self.data_base = sqlite3.connect("user.db")
             self.data_base.isolation_level = None
@@ -37,15 +36,16 @@ class Userdata():
         """This fuction saves the user's personal data into the database.
 
         Args:
-            name (str): The name of the user
-            age (int): The age of the user
-            sex (int): The sex of the user. This is saved in a binary form where 0 is a male user and 1 is a female user.
-            height (float): The heigth of the user
-            weight (float): The weight of the user
+            name (str): The name of the user.
+            age (int): The age of the user.
+            sex (int): The sex of the user.
+            Sex is saved in a binary form where 0 is a male user and 1 is a female user.
+            height (float): The heigth of the user.
+            weight (float): The weight of the user.
         """
         self.data_base.isolation_level = None
         self.data_base.execute(
-            f"insert into User (name,age,sex,height,weight) values ('{name}',{age},{sex},{height},{weight})") # pylint: disable=line-too-long
+            f"insert into User (name,age,sex,height,weight) values ('{name}',{age},{sex},{height},{weight})")  # pylint: disable=line-too-long
 
     def new_meal(self, day, description, calories):
         """This fuction saves a new meal into the data base.
@@ -57,7 +57,7 @@ class Userdata():
         """
         self.data_base.isolation_level = None
         self.data_base.execute(
-            f"insert into Meals (date,description,calories) values ('{day}','{description}','{calories}')") # pylint: disable=line-too-long
+            f"insert into Meals (date,description,calories) values ('{day}','{description}','{calories}')")  # pylint: disable=line-too-long
 
     def new_exercise(self, day, description, calories):
         """This fuction creates a new exercise into the data base.
@@ -69,7 +69,7 @@ class Userdata():
         """
         self.data_base.isolation_level = None
         self.data_base.execute(
-            f"insert into Exercises (date,description,calories) values ('{day}','{description}','{calories}')") # pylint: disable=line-too-long
+            f"insert into Exercises (date,description,calories) values ('{day}','{description}','{calories}')")  # pylint: disable=line-too-long
 
     def give_user_data(self):
         """This function returns a tuple with the user's personal data
