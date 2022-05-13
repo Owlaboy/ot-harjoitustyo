@@ -68,9 +68,9 @@ class Calorietracker():
             Bool: The function returns a boolean value to the calling function,
             to know when to stop running the basic cycle of the program.
         """
-        print(f"You have consumed {self.data.give_todays_calories()} calories")
+        print(f"You have consumed {self.data.give_todays_calories():.2f} calories today")
         basic_rate = self.calculate()
-        print(f"You have burned {basic_rate} calories")
+        print(f"You have burned {basic_rate:.2f} calories today")
         print("To add a meal input: 1")
         print("To add a workout input: 2")
         print("To exit the program input: 0")
@@ -95,6 +95,7 @@ class Calorietracker():
         except:
             self.initial_call()
 
+        print(f"Hello, {self.data.give_user_data()[0]}")
         while True:
             if not self.base():
                 break

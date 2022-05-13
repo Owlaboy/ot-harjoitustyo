@@ -8,12 +8,18 @@ Ennen ohjelman käynnistämistä, asenna riippuvuudet komennolla:
 poetry install
 ```
 
+Ensinmäisellä suoritus kerralla käytä komentoa:
+
+```
+poetry run invoke build
+```
+
 Nyt ohjelman voi käynnistää komennolla:
 
 ```
 poetry run invoke start
 ```
-Komento pitää suorittaa calorie_counter hakemistossa.
+Komennot pitää suorittaa calorie_counter hakemistossa.
 
 ## Ensinmäinen käynnistys
 Kun käynnistätä ohjelman ensinmäistä kertaa sinulta kysytään tietoja kalorikuluksesi laskemiseen.
