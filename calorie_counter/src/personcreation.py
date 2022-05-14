@@ -12,6 +12,7 @@ class Userdata():
         A table to save the user's meals.
         A table to save the user's exercises.
     The class provides methods for inputting data into the data base.'''
+
     def __init__(self):
         try:
             with open("user.db") as test:

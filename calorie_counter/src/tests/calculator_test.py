@@ -11,7 +11,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.male.age, 20)
 
     def test_male_resting(self):
-        self.assertEqual(self.male.resting(), 
+        self.assertEqual(self.male.resting(),
                          (9.247*65 + 3.098*180 - 4.330*20 + 447.593))
 
     def test_female_resting(self):

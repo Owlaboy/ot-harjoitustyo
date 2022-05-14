@@ -12,9 +12,9 @@ _valmentaja_ käyttäjä, joka voi tarkastella muiden käyttäjien kaloreita.
 
 ## Käyttöliittymäluonnos
 Sovelluksessa on viisi ikkunaa. Yksi ensimmäiselle avaukselle missä täytetään käyttäjän tiedot, mistä pääsee yleisnäkymään. Yleisnäkymässä käyttäjälle näytetään kaloritavoite ja siinä voi lisätä treenin, ruuan tai nähdä aikaisemmat päivät. 
- ![](./kuvat/Luonnos1.jpg)
- Yleisnäkymästä voidaan mennä treeninäkymaan, ruokanäkymään tai aikaisempien päivien näkymään. Treeninäkymässä pitää kirjoittaa millainen treeni on tehty ja kuinka paljon kaloreita on käytetty minkä jälkeen treeni voidaan lisätä tai päätös voidaan perua. Molemmat vievät käyttäjän takaisin yleisnäkymään. Ruokanäkymä toimii samoin tavoin kuink treeninäkymä mutta siihen kirjoitetaan mitä ollaan syöty ja kuinka paljon kaloreita ruuassa oli. Näkymästä palataan yleisnäkymään samalla tavalla kuin treeninäkymästä. Aikaisempien päivien näkymä näyttää taulukon aikaisempien päivien kaloritavoitteista.
- ![](./kuvat/Luonnos2.jpg)
+![](./kuvat/Luonnos1.jpg)
+Yleisnäkymästä voidaan mennä treeninäkymaan, ruokanäkymään tai aikaisempien päivien näkymään. Treeninäkymässä pitää kirjoittaa millainen treeni on tehty ja kuinka paljon kaloreita on käytetty minkä jälkeen treeni voidaan lisätä tai päätös voidaan perua. Molemmat vievät käyttäjän takaisin yleisnäkymään. Ruokanäkymä toimii samoin tavoin kuink treeninäkymä mutta siihen kirjoitetaan mitä ollaan syöty ja kuinka paljon kaloreita ruuassa oli. Näkymästä palataan yleisnäkymään samalla tavalla kuin treeninäkymästä. Aikaisempien päivien näkymä näyttää taulukon aikaisempien päivien kaloritavoitteista.
+![](./kuvat/Luonnos2.jpg)
 
 ## Perusversion tarjoama toiminnallisuus
 ### Ensimmäinen sovelluksen aukaisu
@@ -28,8 +28,7 @@ Sovelluksessa on viisi ikkunaa. Yksi ensimmäiselle avaukselle missä täytetä�
   - Uudessa ikkunassa voidaan kirjoittaa mitä on syöty ja käyttäjä täyttää kaloriarvion
 - Käyttäjä voi lisätä treenin  "Tehty"
   - Uudessa ikkunassa voidaan kirjoittaa miten on urheiltu ja käyttäjä täyttää kaloriarvion
-- Käyttäjä voi myös nähdä aikaisempien päivien kalori määrät, ruuat ja treenit
-  - Tiedot näkyvät taulukossa
+
 
 ## Jaktokehitysideoita
 Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla:
