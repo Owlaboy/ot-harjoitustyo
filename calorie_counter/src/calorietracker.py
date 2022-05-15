@@ -47,20 +47,19 @@ class Calorietracker():
         """
         self.data.initiation()
         print("Welcome to the calorie tracker.")
-        print("Please give us some infromation about you,")
-        print("so we can calculate your base metabolic rate.")
+        print("Please give us some information about you,")
+        print("so we can calculate your calorie burn rate.")
         name = str(input("First we will require your name: "))
 
         age = self.value_input("int", "Then your age: ")
 
         while True:
-            sex = int(
-                input("Then your sex, (input 0 if you are a man, 1 if you are a woman): "))
+            sex = self.value_input(
+                "int","Then your sex, (input 0 if you are a man, 1 if you are a woman): ")
             if sex in (1, 0):
                 break
-            print("invalid input")
-            print("try again")
-
+            print("Invalid input, try again")
+            
         height = self.value_input(
             "float", "Now, give us your height in centimeters: ")
         weight = self.value_input(
