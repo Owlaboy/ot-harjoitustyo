@@ -46,7 +46,7 @@ Treenin lisäämiseltä käyttjälätä pyydetään miten on liikuttu ja kuinka 
 Kaikki näkymät ovat tällähetkellä eri metodeija saman luokan [Calorietracker](https://github.com/Owlaboy/ot-harjoitustyo/blob/b6256bcf24776b51d364a82c1db44ffed56c07eb/calorie_counter/src/calorietracker.py) sisällä. Käyttöliittymä yhdistää ohjelman eri luokkien metodit, jotta käyttäjälle voitaisiin näyttää päivittäinen kalorikäyttö.
 
 ## Sovelluslogiikka
-Sovelluksen looginen toiminta muodostuu kolmesta osasta.
+Sovelluksen looginen toiminta muodostuu kolmesta pääosasta.
 - Sovelluksen käyttöliittymä, luokka [Calorietracker](https://github.com/Owlaboy/ot-harjoitustyo/blob/b6256bcf24776b51d364a82c1db44ffed56c07eb/calorie_counter/src/calorietracker.py)
 - Laskin, luokka [Calculator](https://github.com/Owlaboy/ot-harjoitustyo/blob/b6256bcf24776b51d364a82c1db44ffed56c07eb/calorie_counter/src/calculator.py)
 - Tietokanta, luokka [Userdata](https://github.com/Owlaboy/ot-harjoitustyo/blob/b6256bcf24776b51d364a82c1db44ffed56c07eb/calorie_counter/src/personcreation.py) 
@@ -62,6 +62,10 @@ Luokka sisältää eri metodeja tietokannan käyttämistä varten. Näitä ovat 
 - `new_person`
 - `new_meal`
 - `give_user_data`
+
+## Ohjelman alustus
+
+Ohjelma pitää alustaa luomalla `user.db` tiedosto. Luokassa [Userdata](https://github.com/Owlaboy/ot-harjoitustyo/blob/b6256bcf24776b51d364a82c1db44ffed56c07eb/calorie_counter/src/personcreation.py) on metodi `initiation`, mikä luo uuden tiedoston jos sitä ei ole olemassa ja alustaa sen sisälle aiemmin mainitut talukot. 
 
 ## Datan tallennus
 

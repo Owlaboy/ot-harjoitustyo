@@ -12,5 +12,6 @@
 |26.04.2022|3|Pylint korjauksia, uusia testejä ja ohjelman perustoiminnallisuuden täydentäminen|
 |30.04.2022|3|Tkinterin oppiminen ja osittainen luonti|
 |02.05.2022|5|Docstring dokumentaatio, coverage-raportin korjaus, arkkitethuurikuvaus, kayttöohje, testien tarkennus|
-|03.05.2022|0.5|Pien dokumentaatio korjauksia|
+|14.05.2022|2|Pien dokumentaatio korjauksia, pylint korjauksia, ohjelman suoritus muunnoksia|
+|14.05.2022|2|Korjausten jatko, testikattavuuden täyttö, pylint korjauksia, dokumentaatiota|
 |Yht.|24||

@@ -1,6 +1,6 @@
 from datetime import date
 from calculator import Calculator
-from personcreation import Userdata
+from userdata import Userdata
 
 
 class Calorietracker():
@@ -43,7 +43,9 @@ class Calorietracker():
     def initial_call(self):
         """This is a function which is run at the intial call of the application.
         The initial call is used to get the personal information of the user.
+        The method also initiates the tables inside the database.
         """
+        self.data.initiation()
         print("Welcome to the calorie tracker.")
         print("Please give us some infromation about you,")
         print("so we can calculate your base metabolic rate.")
@@ -134,7 +136,6 @@ class Calorietracker():
         It checks if the program needs to complete an inital call to create a new database file.
         After checking for a database the function runs infinitely until the program cycle ends.
         """
-
         print(f"Hello, {self.data.give_user_data()[0]}")
         while True:
             if not self.base():

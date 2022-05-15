@@ -14,24 +14,19 @@ class Userdata():
     The class provides methods for inputting data into the data base.'''
 
     def __init__(self):
-        try:
-            with open("user.db") as test:
-                pass
-        except IOError:
-            with open("user.db", "w") as test:
-                pass
-            self.data_base = sqlite3.connect("user.db")
-            self.data_base.isolation_level = None
+        self.data_base = sqlite3.connect("user.db")
+        self.data_base.isolation_level = None
 
-            self.data_base.execute(
-                "create table User (name TEXT, age INTEGER, sex INTEGER, height REAL, weight REAL)")
-            self.data_base.execute(
-                "create table Meals (date TEXT, description TEXT, calories REAL)")
-            self.data_base.execute(
-                "create table Exercises (date TEXT, description TEXT, calories REAL)")
-        else:
-            self.data_base = sqlite3.connect("user.db")
-            self.data_base.isolation_level = None
+    def initiation(self):
+        self.data_base = sqlite3.connect("user.db")
+        self.data_base.isolation_level = None
+
+        self.data_base.execute(
+            "create table User (name TEXT, age INTEGER, sex INTEGER, height REAL, weight REAL)")
+        self.data_base.execute(
+            "create table Meals (date TEXT, description TEXT, calories REAL)")
+        self.data_base.execute(
+            "create table Exercises (date TEXT, description TEXT, calories REAL)")
 
     def new_person(self, name, age, sex, height, weight):
         """This fuction saves the user's personal data into the database.

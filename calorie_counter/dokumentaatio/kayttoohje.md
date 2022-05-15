@@ -1,5 +1,5 @@
 # Käyttöohje
-Tässä miten aloittaa ohjelma
+Tässä miten aloittaa ohjelma.
 
 ## Ohjelman käynnistäminen
 Ennen ohjelman käynnistämistä, asenna riippuvuudet komennolla:
@@ -25,6 +25,10 @@ Komennot pitää suorittaa calorie_counter hakemistossa.
 Kun käynnistätä ohjelman ensinmäistä kertaa sinulta kysytään tietoja kalorikuluksesi laskemiseen.
 Kirjoita vastauksesi terminaaliin ja paina enter avainta kun olet valmis.
 Ohjelma pyytää sinun, nimesi, ikäsi, sukupuolesi, pituutesi ja painosi.
+Tietojen antamisen jälkeen ohjelman voi avata komennolla :
+```
+poetry run invoke start
+```
 
 ## Perusnäkymä
 Perusnäkymässä sinulle näytetäään kuinka paljon kaloreita olet syönyt tänään, kuinka paljon kaloreita olet polttanut.
