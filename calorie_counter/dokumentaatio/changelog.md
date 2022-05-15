@@ -48,3 +48,5 @@
     - Testit kattavat nyt kaikki käyttölittymän ulkopuolella olevat metodit ja luokat
 - Lisätty uusi tiedosto ohjelman alustamista varten
 - Lisätty uusi "poetry invoke" komento ohjelman alustamista varten
+- Pylint virheiden korjausta
+    - Tietokannan alustamis tavan muutos
