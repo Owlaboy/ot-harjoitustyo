@@ -13,9 +13,11 @@ Sovelluksen toiminta on testattu Python-versiolla `3.8`.
 ## Dokumentaatio
 - [Käyttöohje](calorie_counter/dokumentaatio/kayttoohje.md)
 - [Vaatimusmäärittely](calorie_counter/dokumentaatio/vaatimusmaarittely.md)
+- [Arkkitehtuurikuvaus](calorie_counter/dokumentaatio/arkkitehtuurikuvaus.md)
+- [Testausdokumentti](calorie_counter/dokumentaatio/testaus.md)
 - [Työaikakirjanpito](calorie_counter/dokumentaatio/tuntikirjanpito.md)
 - [Changelog](calorie_counter/dokumentaatio/changelog.md)
-- [Arkkitehtuurikuvaus](calorie_counter/dokumentaatio/arkkitehtuurikuvaus.md)
+
 
 ## Asennus
 
