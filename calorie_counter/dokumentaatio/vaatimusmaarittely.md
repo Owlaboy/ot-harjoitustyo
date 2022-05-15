@@ -22,7 +22,7 @@ Yleisnäkymästä voidaan mennä treeninäkymaan, ruokanäkymään tai aikaisemp
   - Tietoihin kuuluu esim. käyttäjän paino, pituus ja sukupuoli 
  
 ### Tietojen tallentamisen jälkeen
-- Sovellus näyttää päivän kaloritavoitteen ja päivämäärän
+- Sovellus näyttää päivän kaloritavoitteen ja päivämäärän "Tehty"
   - Tavoitteen lisäksi näkyy myös kuinka monta kaloria on syöty päivän aikana "tehty"
 - Käyttäjä voi lisätä syödyn ruuan  "Tehty"
   - Uudessa ikkunassa voidaan kirjoittaa mitä on syöty ja käyttäjä täyttää kaloriarvion
