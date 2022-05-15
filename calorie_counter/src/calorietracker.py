@@ -59,7 +59,6 @@ class Calorietracker():
             if sex in (1, 0):
                 break
             print("Invalid input, try again")
-            
         height = self.value_input(
             "float", "Now, give us your height in centimeters: ")
         weight = self.value_input(
