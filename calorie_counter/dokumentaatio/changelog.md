@@ -32,9 +32,19 @@
 - Ohjelma nyt laskee poltetut kalorit ja syödytkalorit
     - Näyttää luvut vierekkäin käyttäjälle
 
-## Vikko 6
+## Viikko 6
 - Dokumentaatio muutoksia.
     - Arkkitehtuurikuvauksen ja käyttöohjeen luonti
     - READMEn tarkentaminen palautuksen mukaan
 - Testiraportti käsittelee ainoastaan ohjelman tärkeitä osia eikä käyttöliittymää
 - Docstring dokumentaatio kaikkii tiedostoihin paitsi testeihin.
+
+## Viikko 7
+- Dokumentaatio muutoksia.
+    - Testausdokumentin luonti
+    - Käyttöohjeen päivitys
+    - READMEn päivitys
+- Testikattavuuden laajennus
+    - Testit kattavat nyt kaikki käyttölittymän ulkopuolella olevat metodit ja luokat
+- Lisätty uusi tiedosto ohjelman alustamista varten
+- Lisätty uusi "poetry invoke" komento ohjelman alustamista varten
