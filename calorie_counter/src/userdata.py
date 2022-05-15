@@ -18,6 +18,10 @@ class Userdata():
         self.data_base.isolation_level = None
 
     def initiation(self):
+        """This method is used to initialize the database.
+        It creates a three new tables withing the database.
+        """
+
         self.data_base = sqlite3.connect("user.db")
         self.data_base.isolation_level = None
 
