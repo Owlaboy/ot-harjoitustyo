@@ -5,10 +5,10 @@ Ohjelmaa on testattu automatisoiduilla unittesteilla sekä manuaalisesti käytt�
 ## Automatisoidut testit
 
 ### Tietokanta
-Tietokannasta vastaava `Userdata`-luokka testataan [TestUserdata]()-testiluokalla. Testit alustettiin siten että jokaisessa testissä on uusi tietokanta, jossa on kaikki taulut. Testien aikana tauluihin lisätään ja niistä haetaan tietoa. Testeissä suoritettiin myös päiväämäärien oikeellinen toiminta.
+Tietokannasta vastaava `Userdata`-luokka testataan [TestUserdata](calorie_counter/src/tests/userdata_test.py)-testiluokalla. Testit alustettiin siten että jokaisessa testissä on uusi tietokanta, jossa on kaikki taulut. Testien aikana tauluihin lisätään ja niistä haetaan tietoa. Testeissä suoritettiin myös päiväämäärien oikeellinen toiminta.
 
 ### Laskin
-Laskemista vastaava luokka `Calculator`-luokka testataan [TestCalculator]()-testiluokalla. Testissä alustetaan `Calculator`-luokka jolle annetaan eri malli ihmisten tiedot laskettavaksi.
+Laskemista vastaava luokka `Calculator`-luokka testataan [TestCalculator](calorie_counter/src/tests/calculator_test.py)-testiluokalla. Testissä alustetaan `Calculator`-luokka jolle annetaan eri malli ihmisten tiedot laskettavaksi.
 
 ### Testikattavuus
 Käyttöliittymää lukuunottamatta sovelluksen testien haaraumakattavuus on 100%.
